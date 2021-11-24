@@ -19,7 +19,7 @@ const items = [
 ];
 
 // Component
-const myApp = () => {
+const MyApp = () => {
   return (
     <div>
       <Accordion items={items} />
@@ -27,4 +27,4 @@ const myApp = () => {
   );
 };
 
-export default myApp;
+export default MyApp;
