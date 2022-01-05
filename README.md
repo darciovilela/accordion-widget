@@ -1,1 +1,1 @@
-Basic Accordion React Component
+Basic Components in React
