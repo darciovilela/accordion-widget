@@ -24,17 +24,22 @@ const items = [
 // for dropdown
 const options = [
   {
-    label: 'The Color Red',
+    label: 'Choose...',
+    value: '',
+  },
+
+  {
+    label: '>>Color Red',
     value: 'Red',
   },
 
   {
-    label: 'The Color Green',
+    label: '>>Color Green',
     value: 'Green',
   },
 
   {
-    label: 'The Color Blue',
+    label: '>>Color Blue',
     value: 'Blue',
   },
 ];
