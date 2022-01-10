@@ -4,6 +4,7 @@ import Search from './components/Search';
 import Dropdown from './components/Dropdown';
 import Translate from './components/Translate';
 import Route from './components/Route';
+import Header from './components/Header';
 
 // for accordion
 const items = [
@@ -50,34 +51,35 @@ const options = [
 //   return window.location.pathname === route ? component : null;
 // };
 
-const showAccordion = () => {
-  if (window.location.pathname === '/') {
-    return <Accordion items={items} />;
-  }
-};
+// const showAccordion = () => {
+//   if (window.location.pathname === '/') {
+//     return <Accordion items={items} />;
+//   }
+// };
 
-const showDropdown = () => {
-  if (window.location.pathname === '/dropdown') {
-    return <Dropdown />;
-  }
-};
+// const showDropdown = () => {
+//   if (window.location.pathname === '/dropdown') {
+//     return <Dropdown />;
+//   }
+// };
 
-const showSearch = () => {
-  if (window.location.pathname === '/search') {
-    return <Search />;
-  }
-};
+// const showSearch = () => {
+//   if (window.location.pathname === '/search') {
+//     return <Search />;
+//   }
+// };
 
-const showTranslate = () => {
-  if (window.location.pathname === '/translate') {
-    return <Translate />;
-  }
-};
+// const showTranslate = () => {
+//   if (window.location.pathname === '/translate') {
+//     return <Translate />;
+//   }
+// };
 
 export default () => {
   const [selected, setSelected] = useState(options[0]);
   return (
     <div>
+      <Header />
       <Route path="/">
         <Accordion items={items} />
       </Route>
