@@ -5,6 +5,7 @@ import Dropdown from './components/Dropdown';
 import Translate from './components/Translate';
 import Route from './components/Route';
 import Header from './components/Header';
+import './style.css';
 
 // for accordion
 const items = [
@@ -78,7 +79,7 @@ const options = [
 export default () => {
   const [selected, setSelected] = useState(options[0]);
   return (
-    <div>
+    <div className="App">
       <Header />
       <Route path="/">
         <Accordion items={items} />
@@ -88,7 +89,7 @@ export default () => {
       </Route>
       <Route path="/dropdown">
         <Dropdown
-          label="Select a Color"
+          label="Select a color:"
           options={options}
           selected={selected}
           onSelectedChange={setSelected}
