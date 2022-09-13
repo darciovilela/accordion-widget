@@ -11,3 +11,12 @@ label {
     margin: 20px;
 }
 
+input {
+    height: 30px;
+    width: 200px;
+    margin: 20px;
+}
+
+h3 {
+    margin: 20px;
+}

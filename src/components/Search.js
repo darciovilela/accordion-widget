@@ -57,6 +57,7 @@ const Search = () => {
         <div className="field">
           <label>Enter search term: </label>
           <input
+            autoFocus
             value={term}
             onChange={(e) => setTerm(e.target.value)}
             className="input"
