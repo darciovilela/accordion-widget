@@ -15,8 +15,10 @@
 .menu ul {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     list-style-type: none;
-           
+    margin-left: -25px;
+               
 }
 
 .menu ul li {
@@ -41,7 +43,8 @@
 
 label {
     
-    margin: 20px;
+    margin-left: 20px;
+    font-style: bold;
 }
 
 input {

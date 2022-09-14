@@ -4,6 +4,10 @@ import Convert from './Convert';
 
 const options = [
   {
+    label: 'Choose...',
+    value: '',
+  },
+  {
     label: 'Afrikaans',
     value: 'af',
   },
@@ -27,14 +31,14 @@ const Translate = () => {
     //campo de texto
     <div>
       <div className="ui form">
+        <label>Enter text:</label>
         <div className="field">
-          <label>Enter text:</label>
           <input value={text} onChange={(e) => setText(e.target.value)} />
         </div>
       </div>
       <br />
       <Dropdown
-        label="Select a Language:"
+        // label="Select a Language:"
         selected={language}
         onSelectedChange={setLanguage}
         options={options}
