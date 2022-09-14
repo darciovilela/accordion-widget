@@ -1,5 +1,5 @@
 .App {
-    background-color: rgb(235, 226, 226);
+    background-color: rgb(247, 240, 240);
 }
 
 .App-header {
@@ -16,20 +16,28 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    font-size: 14px;
-        
+           
+}
+
+.menu ul li {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 2px;
+  background-color: lightgray;
+  cursor: pointer;
+  font-size: 14px;
+  
+  
 }
 
 .menu ul li:hover {
-    border: 1px solid rgb(68, 65, 65);
-    border-radius: 5px;
+    border: 1px solid rgb(90, 124, 191);
+    background-color: rgb(202, 197, 197);
        
 }
 
-.menu ul li:active {
-    background: rgb(169, 29, 29);
 
-}
 
 label {
     
@@ -45,3 +53,4 @@ input {
 h3 {
     margin: 20px;
 }
+

@@ -1,28 +1,24 @@
 import React from 'react';
+import { useState } from 'react';
 import Link from './Link';
-import Header from './Header';
 
 const Menu = () => {
   return (
     <nav className="menu">
-      <div className="ui secondary pointing menu">
-        <ul>
-          <li>
-            <Link href="/" className="item">
-              Accordion
-            </Link>
+      <div>
+        <ul id="myMenu">
+          <li className="item active">
+            <Link href="/">Accordion</Link>
           </li>
-          <li>
-            <Link href="/search" className="item">
-              Search
-            </Link>
+          <li className="item">
+            <Link href="/search">Search</Link>
           </li>
-          <li>
+          <li className="item">
             <Link href="/dropdown" className="item">
               Dropdown
             </Link>
           </li>
-          <li>
+          <li className="item">
             <Link href="/translate" className="item">
               Translate
             </Link>
