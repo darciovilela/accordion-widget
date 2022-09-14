@@ -29,8 +29,12 @@
   background-color: lightgray;
   cursor: pointer;
   font-size: 14px;
-  
-  
+   
+}
+
+.menu ul li.active {
+    border: 1px solid rgb(90, 124, 191);
+    background-color: rgb(202, 197, 197);
 }
 
 .menu ul li:hover {
