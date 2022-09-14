@@ -5,6 +5,7 @@ import Dropdown from './components/Dropdown';
 import Translate from './components/Translate';
 import Route from './components/Route';
 import Header from './components/Header';
+import Menu from './components/Menu';
 import './style.css';
 
 // for accordion
@@ -81,6 +82,7 @@ export default () => {
   return (
     <div className="App">
       <Header />
+      <Menu />
       <Route path="/">
         <Accordion items={items} />
       </Route>
