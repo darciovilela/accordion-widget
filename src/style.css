@@ -3,7 +3,32 @@
 }
 
 .App-header {
-    background-color: lightgrey;
+    background-color: orange;
+    height: 60px;
+}
+
+.logo {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 14px;
+        
+}
+
+.menu ul li:hover {
+    border: 1px solid rgb(68, 65, 65);
+    border-radius: 5px;
+       
+}
+
+.menu ul li:active {
+    background: rgb(169, 29, 29);
+
 }
 
 label {
