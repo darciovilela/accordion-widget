@@ -3,9 +3,9 @@ import Link from './Link';
 
 const Menu = () => {
   return (
-    <nav className="menu">
+    <nav className="nav">
       <div>
-        <ul id="myMenu">
+        <ul className="Menu">
           <li className="item">
             <Link href="/">Accordion</Link>
           </li>
